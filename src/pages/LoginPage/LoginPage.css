@@ -1,0 +1,7 @@
+.unauth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 0.4em;
+}

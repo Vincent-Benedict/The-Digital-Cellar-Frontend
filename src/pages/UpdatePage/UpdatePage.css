@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+.main-update{
+    width: 98%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em 0;
+    
+}
+
+.update-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+form{
+    width: 100%;
+}
+
+form input{
+    width: 100%;
+    padding: 0.6rem 0.4rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    letter-spacing: 1px;
+}
+
+.label{
+    margin-bottom: 0.4em;
+    margin-top: 0.6em;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.error-label{
+    color: red;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 1.8em;
+    
+}
+
+.btn-submit button{
+    width: 100%;
+    padding: 0.8em 0;
+    background-color: rgb(38, 38, 38);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-submit button:hover{
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+}
+
+.loading-spinner{
+    margin-top: 1em;
+}
+
+.loading-spinner p{
+    margin: 0;
+    text-align: center;
+}

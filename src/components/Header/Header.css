@@ -1,0 +1,49 @@
+#header{
+    background-color: rgb(38, 38, 38);
+    padding: 1em 0;
+    position: relative;
+}
+
+.welcome-message{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    /* background-color: white; */
+    color: white;
+}
+
+.welcome-message p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+}
+
+#logout-btn{
+    background-color: rgb(208, 208, 208);
+    color: black;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+}
+
+#logout-btn:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

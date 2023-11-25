@@ -1,0 +1,124 @@
+.user-container{
+    display: flex;
+    align-items: center;
+    border: 0.5px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    padding: 0.8em 0.5em;
+    padding-right: 1em;
+    justify-content: space-between;
+}
+
+.user-container-identity{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.user-container-button{
+    width: 30%
+}
+
+.user-image{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.user-image img{
+    width: 100%;
+    max-width: 50px;
+    min-width: 40px;
+}
+
+.user-name-email{
+    width: 75%;
+    margin-left: 2%;
+}
+
+.user-name-email p{
+    margin: 0;
+}
+
+.user-name {
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+}
+
+.user-email {
+    font-size: 0.75rem;
+    font-style: italic;
+    letter-spacing: 0.8px;
+}
+
+.user-container-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-container-button div{
+    width: 48%;
+}
+
+.button-update, .button-delete{
+    width: 100%;
+    padding: 0.6em 0;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+.button-update {
+    background-color: rgb(30, 112, 255);
+}
+
+.button-delete{
+    background-color: rgb(255, 71, 71);
+}
+
+.button-update:hover, .button-delete:hover{
+    cursor: pointer;
+}
+
+.button-update:hover{
+    background-color: rgb(69, 137, 255);
+}
+
+.button-delete:hover{
+    background-color: rgb(255, 111, 111);
+}
+
+@media screen and (max-width: 500px) {
+
+    *{
+        font-size: 13px;
+    }
+
+    .user-container{
+        
+        padding: 0.8em 1em;
+       
+    }
+
+    .user-name-email{
+
+        margin-left: 8%;
+    }
+
+    .user-container-button{
+        flex-direction: column;
+    }
+
+    .user-container-button div{
+        width: 100%;
+        margin: 0.1em;
+    }
+
+    .button-update, .button-delete{
+        font-size: 0.7rem;
+    }
+
+
+}

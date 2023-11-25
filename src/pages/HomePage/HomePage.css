@@ -1,0 +1,58 @@
+.main-home{
+    width: 98%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em 0;
+    
+}
+
+.main-title{
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-add-user{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-add-user:hover{
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+}
+
+.main-title p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.main-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.btn-prev, .btn-next{
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.btn-prev:hover, .btn-next:hover{
+    cursor: pointer;
+    background-color: rgb(77, 77, 77);
+}
+
+
