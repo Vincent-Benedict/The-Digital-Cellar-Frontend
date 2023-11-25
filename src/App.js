@@ -8,12 +8,12 @@ import LoginPage from './pages/LoginPage/LoginPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/The-Digital-Cellar-Frontend">
       <Routes>
-        <Route path="http://Vincent-Benedict.github.io/The-Digital-Cellar-Frontend/" element={<LoginPage/>}/>
-        <Route path="http://Vincent-Benedict.github.io/The-Digital-Cellar-Frontend/home" element={<HomePage/>}/>
-        <Route path="http://Vincent-Benedict.github.io/The-Digital-Cellar-Frontend/insert" element={<InsertPage/>}/>
-        <Route path="http://Vincent-Benedict.github.io/The-Digital-Cellar-Frontend/update/:id" element={<UpdatePage/>} />
+        <Route path="/" element={<LoginPage/>}/>
+        <Route path="/home" element={<HomePage/>}/>
+        <Route path="/insert" element={<InsertPage/>}/>
+        <Route path="/update/:id" element={<UpdatePage/>} />
       </Routes>
     </BrowserRouter>
     
