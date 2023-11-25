@@ -23,7 +23,7 @@ export default function LoginPage() {
         try {
             const response = await axios({
                 method: 'POST',
-                url: `http://localhost:8000/api/login`,
+                url: `https://thedigitalcellarbackend.000webhostapp.com/api/login`,
                 data: {
                     username: form.username,
                     password: form.password

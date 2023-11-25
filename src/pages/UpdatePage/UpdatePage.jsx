@@ -24,7 +24,7 @@ export default function UpdatePage() {
     const fetchData = async () => {
     
         try {
-            const response = await fetch(`http://localhost:8000/api/users/${id}`, {
+            const response = await fetch(`https://thedigitalcellarbackend.000webhostapp.com/api/users/${id}`, {
                 credentials: 'include'
             });
             const data = await response.json();
@@ -52,7 +52,7 @@ export default function UpdatePage() {
         try {
             const response = await axios({
                 method: 'PUT',
-                url: `http://localhost:8000/api/users/update/${id}`,
+                url: `https://thedigitalcellarbackend.000webhostapp.com/api/users/update/${id}`,
                 data: {
                     username: form.username,
                     email: form.email,

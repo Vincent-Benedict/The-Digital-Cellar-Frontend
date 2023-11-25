@@ -23,7 +23,7 @@ export default function User(props){
         try {
             await axios({
                 method: 'GET',
-                url: `http://localhost:8000/api/user`,
+                url: `https://thedigitalcellarbackend.000webhostapp.com/api/user`,
                 withCredentials: 'true'
             }).then(response => {
                 const data = response.data;
