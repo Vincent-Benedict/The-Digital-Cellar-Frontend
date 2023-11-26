@@ -21,7 +21,8 @@ export default function LoginPage() {
         e.preventDefault();
 
         try {
-            const response = await axios({
+            
+            await axios({
                 method: 'POST',
                 url: `http://localhost:8000/api/login`,
                 data: {
@@ -29,9 +30,9 @@ export default function LoginPage() {
                     password: form.password
                 },
                 withCredentials: 'true', 
+            }).then(response => {
+                console.log('response ', response);
             })
-
-            console.log('response ', response);
 
             if(response.status === 200 && response.data.error !== "Unauthorized") {
                 
