@@ -22,7 +22,7 @@ export default function LoginPage() {
 
         try {
             
-            await axios({
+            const response = await axios({
                 method: 'POST',
                 url: `http://localhost:8000/api/login`,
                 data: {
@@ -30,9 +30,7 @@ export default function LoginPage() {
                     password: form.password
                 },
                 withCredentials: 'true', 
-            }).then(response => {
-                console.log('response ', response);
-            })
+            });
 
             if(response.status === 200 && response.data.error !== "Unauthorized") {
                 
