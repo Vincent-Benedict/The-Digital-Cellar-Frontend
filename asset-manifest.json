@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/the-digital-cellar-frontend/static/css/main.9fb30b19.css",
+    "main.js": "/the-digital-cellar-frontend/static/js/main.1c58a885.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/the-digital-cellar-frontend/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/user-logo.png": "/the-digital-cellar-frontend/static/media/user-logo.a6143582309785dca610.png",
+    "static/media/logo.svg": "/the-digital-cellar-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/the-digital-cellar-frontend/index.html",
+    "main.9fb30b19.css.map": "/the-digital-cellar-frontend/static/css/main.9fb30b19.css.map",
+    "main.1c58a885.js.map": "/the-digital-cellar-frontend/static/js/main.1c58a885.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/the-digital-cellar-frontend/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fb30b19.css",
+    "static/js/main.1c58a885.js"
+  ]
+}
