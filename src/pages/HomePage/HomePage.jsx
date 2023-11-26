@@ -18,7 +18,7 @@ export default function HomePage() {
     const fetchData = async () => {
     
         try {
-            const response = await fetch(`https://thedigitalcellarbackend.000webhostapp.com/api/users?page=${currentPage}`, {
+            const response = await fetch(`http://localhost:8000/api/users?page=${currentPage}`, {
                 credentials: 'include',
             });
             const data = await response.json();
@@ -43,7 +43,7 @@ export default function HomePage() {
 
         if(isConfirmed) {
             try {
-                await fetch(`https://thedigitalcellarbackend.000webhostapp.com/api/users/delete/${id}`, {
+                await fetch(`http://localhost:8000/api/users/delete/${id}`, {
                   method: 'DELETE',
                   credentials: 'include',
                 });

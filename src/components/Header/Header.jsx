@@ -19,7 +19,7 @@ export default function Header(){
         try {
             await axios({
                 method: 'GET',
-                url: `https://thedigitalcellarbackend.000webhostapp.com/api/user`,
+                url: `http://localhost:8000/api/user`,
                 withCredentials: 'true'
             }).then(response => {
                 const data = response.data;
@@ -34,7 +34,7 @@ export default function Header(){
         try {
             await axios({
                 method: 'POST',
-                url: `https://thedigitalcellarbackend.000webhostapp.com/api/logout`,
+                url: `http://localhost:8000/api/logout`,
                 withCredentials: 'true'
             }).then(response => {
                 console.log(response);

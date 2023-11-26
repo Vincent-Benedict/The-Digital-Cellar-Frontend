@@ -8,7 +8,7 @@ import LoginPage from './pages/LoginPage/LoginPage';
 
 function App() {
   return (
-    <BrowserRouter basename="/The-Digital-Cellar-Frontend">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginPage/>}/>
         <Route path="/home" element={<HomePage/>}/>

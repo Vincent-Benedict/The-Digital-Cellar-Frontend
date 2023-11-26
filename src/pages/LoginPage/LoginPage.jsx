@@ -23,13 +23,15 @@ export default function LoginPage() {
         try {
             const response = await axios({
                 method: 'POST',
-                url: `https://thedigitalcellarbackend.000webhostapp.com/api/login`,
+                url: `http://localhost:8000/api/login`,
                 data: {
                     username: form.username,
                     password: form.password
                 },
                 withCredentials: 'true', 
             })
+
+            console.log('response ', response);
 
             if(response.status === 200 && response.data.error !== "Unauthorized") {
                 

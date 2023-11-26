@@ -26,7 +26,7 @@ export default function InsertPage() {
         try {
             const response = await axios({
                 method: 'POST',
-                url: `https://thedigitalcellarbackend.000webhostapp.com/api/users/register`,
+                url: `http://localhost:8000/api/users/register`,
                 data: {
                     username: form.username,
                     email: form.email,
